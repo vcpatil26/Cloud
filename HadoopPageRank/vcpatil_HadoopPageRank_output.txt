@@ -1,0 +1,19 @@
+########################################################
+#   Hadoop PageRank Job take 489.521 sec.
+########################################################
+Warning: $HADOOP_HOME is deprecated.
+
+PageRank Finished execution, see output in output/.
+summer@ubuntu:/root/MoocHomeworks/HadoopPageRank$ cat output/* | sort -n -k2 -r | head -n10
+cat: output/_logs: Is a directory
+236    9.966958965951023E-4
+2180    9.922394955092162E-5
+1014    9.909665728044204E-5
+2606    9.907236642218223E-5
+1032    9.845535372997214E-5
+3340    9.817576110563587E-5
+176    9.792325060092003E-4
+2158    9.774443867093785E-5
+1682    9.766237020918693E-5
+4748    9.750330711822623E-5
+summer@ubuntu:/root/MoocHomeworks/HadoopPageRank$
